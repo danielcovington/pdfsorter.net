@@ -7,7 +7,7 @@ Public Class Pdf
         Me.numberOfPages = 0
     End Sub
 
-    Public Function getNumberOfPages() As Integer
+    Public Function GetNumberOfPages() As Integer
         Return Me.numberOfPages
     End Function
 

@@ -6,8 +6,7 @@ Imports pdfsorter.net.Pdf
 
     <TestMethod()> Public Sub NewPdfHasZeroPagesWhenInitializedTest()
         Dim testPdf As Pdf = New Pdf()
-        Assert.AreEqual(testPdf.getNumberOfPages(), 0)
-
+        Assert.AreEqual(testPdf.GetNumberOfPages(), 0)
     End Sub
 
 End Class

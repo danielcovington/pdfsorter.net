@@ -77,7 +77,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="main.vb" />
     <Compile Include="Pdf.vb" />
     <Compile Include="pdfTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

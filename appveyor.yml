@@ -1,4 +1,7 @@
 version: 0.0.1-{build}
 
+install:
+  - nuget restore
+  
 build:
   project: pdfsorter.net/pdfsorter.net.vbproj

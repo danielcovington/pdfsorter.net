@@ -1,10 +1,12 @@
 ﻿Imports System.Text
-Imports Microsoft.VisualStudio.TestTools.UnitTesting
+Imports NUnit.Framework
 Imports pdfsorter.net.Pdf
 
-<TestClass()> Public Class PdfTest
+<TestFixture()> _
+Public Class PdfTest
 
-    <TestMethod()> Public Sub NewPdfHasZeroPagesWhenInitializedTest()
+    <Test()> _
+    Public Sub NewPdfHasZeroPagesWhenInitializedTest()
         Dim testPdf As Pdf = New Pdf()
         Assert.AreEqual(testPdf.GetNumberOfPages(), 0)
     End Sub

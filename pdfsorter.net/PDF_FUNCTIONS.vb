@@ -1,8 +1,13 @@
-﻿Module PDF_FUNCTIONS
+﻿Imports System
+
+Module PDF_FUNCTIONS
     Sub main()
 
     End Sub
     Function CreateDocumentsFromPDF()
-        CreateDocumentsFromPDF = 0
+        Dim PDF As New DebenuPDFLibraryAX1013.PDFLibrary
+        Dim Documents As New Collection
+
+        CreateDocumentsFromPDF = Documents
     End Function
 End Module

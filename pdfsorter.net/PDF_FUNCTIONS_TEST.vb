@@ -1,14 +1,16 @@
 ﻿Imports System.Text
 Imports NUnit.Framework
+Imports pdfsorter.net.Pdf
 
 
 <TestFixture()> _
 Public Class PDF_FUNCTIONS_TEST
 
     <Test()> _
-    Public Sub CreateDocumentsFromPDFRetunsSomething()
-        Dim Somthing As Integer
-        Somthing = CreateDocumentsFromPDF()
+    Public Sub CreateDocumentsFromPDFRetunsA_Collection()
+
+        Assert.That(CreateDocumentsFromPDF(), [Is].InstanceOf(Of Collection))
+
     End Sub
 
 End Class

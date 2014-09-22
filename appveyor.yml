@@ -2,8 +2,6 @@ version: 0.0.1-{build}
 
 install:
   - nuget restore
-  - echo hello
-  - dir
   - cmd: C:\Windows\System32\regsvr32.exe /s "req\DebenuPDFLibrary64AX1013.dll"
   - cmd: C:\Windows\SysWOW64\regsvr32.exe /s "req\DebenuPDFLibraryAX1013.dll"
 build:

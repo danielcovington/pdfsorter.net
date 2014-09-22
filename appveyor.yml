@@ -5,6 +5,7 @@ install:
   - echo hello
   - dir
   - cd pdfsorter.net
+  - dir
   - cmd: C:\Windows\System32\regsvr32.exe /s "req\DebenuPDFLibrary64AX1013.dll" 
 build:
   project: pdfsorter.net/pdfsorter.net.vbproj

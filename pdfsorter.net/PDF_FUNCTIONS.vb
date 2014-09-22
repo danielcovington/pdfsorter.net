@@ -21,11 +21,12 @@ Module PDF_FUNCTIONS
             PdfLibrary = Activator.CreateInstance(comType)
         End If
         '-----------------------------------------------------------------------------
+
         If PdfLibrary.UnlockKey("j564z3wi9i66k93cp3r798b3y") <> 1 Then
             CreateDocumentsFromPDF = Nothing
             Exit Function
         End If
-
+        PdfLibrary.loadfromFile("knoBill.pdf", "")
 
         CreateDocumentsFromPDF = Documents
 

@@ -33,7 +33,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>pdfsorter.net.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
     <OptionExplicit>On</OptionExplicit>
@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Document.vb" />
+    <Compile Include="DocumentClassTests.vb" />
     <Compile Include="PDF_FUNCTIONS.vb" />
     <Compile Include="Pdf.vb" />
     <Compile Include="pdfTest.vb" />

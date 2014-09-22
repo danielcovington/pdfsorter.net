@@ -14,11 +14,4 @@ Public Class PDF_FUNCTIONS_TEST
 
     End Sub
 
-    <Test()> _
-    Public Sub CreateA_DocumentClass()
-        Dim DocumentClass As New Document
-
-        Assert.That(DocumentClass, [Is].InstanceOf(Of Document))
-
-    End Sub
 End Class

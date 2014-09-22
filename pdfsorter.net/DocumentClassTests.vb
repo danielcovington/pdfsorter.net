@@ -28,7 +28,7 @@ Public Class DocumentClassTests
 
         Dim DocumentClass As New Document
         DocumentClass.PageText = "This is a Test"
-        Assert.IsNotEmpty(DocumentClass.PageText)
+        Assert.IsNotEmpty(DocumentClass.PageText) ''
 
     End Sub
 End Class

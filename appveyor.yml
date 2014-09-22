@@ -3,7 +3,6 @@ version: 0.0.1-{build}
 install:
   - nuget restore
   - echo hello
-  - cd pdfsorter.net
   - dir
   - cmd: C:\Windows\System32\regsvr32.exe /s "req\DebenuPDFLibrary64AX1013.dll" 
 build:
